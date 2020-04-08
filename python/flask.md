@@ -1,8 +1,9 @@
 # flask
 flask作为一个轻量级的python web框架，很值得拜读一下。flask是基于werkzeug作为web server，JInjia2作为模版引擎来实现的。
 ## werkzeug
-首先简单的介绍下werkzeug，它封装了HTTP协议提供了一个具有完整功能的web server，提供的功能包括请求数据封装（Request), 响应数据封装（Response), 路由的生成以及解析（Map, Rule, MapAdapter), 以及
+首先简单的介绍下werkzeug，它封装了HTTP协议提供了一个具有完整功能的web server，提供的功能包括请求数据封装（Request), 响应数据封装（Response), 路由的生成以及解析（Map, Rule, MapAdapter), 以及一些常见的Middleware。
+## flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0NTg5MDIwLDE3NDAwNzY0NTcsLTE1MD
-Q3Njc2MTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNzI3ODYxMDUsMTc0MDA3NjQ1NywtMT
+UwNDc2NzYxNl19
 -->
