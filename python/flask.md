@@ -3,10 +3,10 @@ flask作为一个轻量级的python web框架，很值得拜读一下。flask是
 ## werkzeug
 首先简单的介绍下werkzeug，它封装了HTTP协议提供了一个具有完整功能的web server，提供的功能包括请求数据封装（Request), 响应数据封装（Response), 路由的生成以及解析（Map, Rule, MapAdapter), 以及一些常见的Middleware。
 ## flask 启动流程
-首先python web 框架都需要遵循wsgi协议，所有的python web 框架都需要根据wsgi提供的接口来实现。简单的来说就是每个python web应用都是一个可调用的接口（callable), 在flask中，这个对象就是app = Flask(__name__)实例化的对象。因为在Flask类中实现了def __call__(environ, start_response)方法，所以由Flask实例化出的对象就是一个可调用的对象。flask应用启动的流程是这样的，首先flask实现了一个run()方法，在run()方法里调用werkzeug .serving.
+首先python web 框架都需要遵循wsgi协议，所有的python web 框架都需要根据wsgi提供的接口来实现。简单的来说就是每个python web应用都是一个可调用的接口（callable), 在flask中，这个对象就是app = Flask(__name__)实例化的对象。因为在Flask类中实现了def __call__(environ, start_response)方法，所以由Flask实例化出的对象就是一个可调用的对象。flask应用启动的流程是这样的，首先flask实现了一个run()方法，在run()方法里调用werkzeug .serving.run_simple(host, port, app)启动一个web server并ji
 
 ![](https://assets.toptal.io/uploads/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjExOTk0ODAsLTEwNzI3ODYxMDUsMT
+eyJoaXN0b3J5IjpbLTE4NTMxOTc3NDQsLTEwNzI3ODYxMDUsMT
 c0MDA3NjQ1NywtMTUwNDc2NzYxNl19
 -->
