@@ -61,9 +61,21 @@ class Cls2(object):
 这里不展开讲元类，但是需要理解python中所说的一切对象的概念。默认情况下不指定metaclass，这个类就是type实例化的对象。
 ```markdown
 #!/usr/bin/env python3
+class SingletonMeta(type):  
+    _instance = None  
+  
+ def __call__(cls, *args, **kwargs):  
+        if cls._instance is None:  
+            cls._instance = super(SingletonMeta, cls).__call__(*args, **kwargs)  
+        return cls._instance  
+  
+  
+class Cls4(metaclass=SingletonMeta):  
+    def __init__(self, name):  
+        self.name = name
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTE3OTIyNywtMTc1NzY0OTQzMCw4ND
-M3NDM1NjIsLTE4NjU0NzA2MjQsMTI2ODM1NTQ1OCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTE2ODI5NjM0MTUsMTUxMTE3OTIyNywtMT
+c1NzY0OTQzMCw4NDM3NDM1NjIsLTE4NjU0NzA2MjQsMTI2ODM1
+NTQ1OCw3MzA5OTgxMTZdfQ==
 -->
