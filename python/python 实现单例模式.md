@@ -64,9 +64,9 @@ class Cls2(object):
 class SingletonMeta(type):  
     _instance = None  
   
- def __call__(cls, *args, **kwargs):  
+    def __call__(cls, *args, **kwargs):  
         if cls._instance is None:  
-            cls._instance = super(SingletonMeta, cls).__call__(*args, **kwargs)  
+            cls._instance = super(SingletonMeta,cls).__call__(*args, **kwargs)  
         return cls._instance  
   
   
@@ -75,7 +75,7 @@ class Cls4(metaclass=SingletonMeta):
         self.name = name
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI5NjM0MTUsMTUxMTE3OTIyNywtMT
-c1NzY0OTQzMCw4NDM3NDM1NjIsLTE4NjU0NzA2MjQsMTI2ODM1
-NTQ1OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIwMTQzNzg1NSwxNTExMTc5MjI3LC0xNz
+U3NjQ5NDMwLDg0Mzc0MzU2MiwtMTg2NTQ3MDYyNCwxMjY4MzU1
+NDU4LDczMDk5ODExNl19
 -->
