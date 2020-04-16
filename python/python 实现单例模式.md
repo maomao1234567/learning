@@ -20,7 +20,11 @@ class Cls(object):
     def __init__(self, name):  
         self.name = name
 ```
+接下来再看看使用类装饰器的实现方式
+```
+#!/usr/bin/env python3
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTE2MjEzNCwtMTg2NTQ3MDYyNCwxMj
+eyJoaXN0b3J5IjpbLTMzMDI0NzMyOSwtMTg2NTQ3MDYyNCwxMj
 Y4MzU1NDU4LDczMDk5ODExNl19
 -->
