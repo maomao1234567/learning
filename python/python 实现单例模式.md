@@ -56,8 +56,8 @@ class Cls2(object):
     def __init__(self, name):  
         self.name = name
 ```
-从代码里可以看出这种实现方式就是通过重写__new__方法在创建实例的时候判断
+从代码里可以看出这种实现方式就是通过重写__new__方法在创建实例的时候判断实例是否创建。这样的方式有个特点每一次实例化对象虽然都是返回的同一个实例化对象但是每次都会
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDQ1NDY2OSwtMTg2NTQ3MDYyNCwxMj
-Y4MzU1NDU4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzE2MzI4NzcyLC0xODY1NDcwNjI0LDEyNj
+gzNTU0NTgsNzMwOTk4MTE2XX0=
 -->
