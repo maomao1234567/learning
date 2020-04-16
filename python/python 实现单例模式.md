@@ -40,7 +40,8 @@ class Cls(object):
         self.name = name
 ```
 通过前面的两种方式实现单例模式可以看出，都是使用的装饰器的特性在类实例化时添加额外的一些操作来满足只有一个实例化对象存在的情况。核心思想就是使用一个全局的变量来存储在第一种实现方式上使用一个dict _instance, key 为类的一个唯一标识，value就是类的实例化对象。在这里我的理解就是，通过装饰器来代理类的实例化操作只是在实例化之前判断一下实例是否存在。
+#### 使用__new__实现单例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMzNTMyNzEsLTE4NjU0NzA2MjQsMT
-I2ODM1NTQ1OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjQwMjk0NjQsLTE4NjU0NzA2MjQsMTI2OD
+M1NTQ1OCw3MzA5OTgxMTZdfQ==
 -->
