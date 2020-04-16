@@ -4,9 +4,23 @@
   首先看一下代码实现
    ```markdown
     #!/usr/bin/env python3
-    print("Hello, World!");
+def singleton(cls):  
+    _instance = {}  
+  
+    def inner(*args, **kwargs):  
+        if cls not in _instance:  
+            _instance[cls] = cls(*args, **kwargs)  
+  
+        return _instance[cls]  
+    return inner  
+  
+  
+@singleton  
+class Cls(object):  
+    def __init__(self, name):  
+        self.name = name
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU0NzA2MjQsMTI2ODM1NTQ1OCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTcwNTE2MjEzNCwtMTg2NTQ3MDYyNCwxMj
+Y4MzU1NDU4LDczMDk5ODExNl19
 -->
