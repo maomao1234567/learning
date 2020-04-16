@@ -44,8 +44,20 @@ class Cls(object):
 使用这种方式来实现单例模式前提是必须了解，python类实例化对象的全过程，这个问题在前面有讲解，这里简单的说下python实例化对象是先调用__new__创建一个实例然后返回这个实例再由__init__方法对这个实例进行初始化。因此，这种方式就是重写__new__在创建实例的时候判断是否存在该类的实例化对象。当然核心的实现方式也是需要一个全局的变量来存储类实例。
 下面看看这种方式的代码实现：
 ```markdown
-#
+#!/usr/bin/env python3
+class Cls2(object):  
+    _instance = None  
+  
+    def __new__(cls, *args, **kwargs):  
+        if cls._instance is None:  
+            cls._instance = object.__new__(cls)  
+        return cls._instance  
+  
+    def __init__(self, name):  
+        self.name = name
+```
+从代码里可以看出这种实现方式就是通过重写__new__方法在创建实例的时候判断
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUyNzA1NDUsLTE4NjU0NzA2MjQsMT
-I2ODM1NTQ1OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTMzMDQ1NDY2OSwtMTg2NTQ3MDYyNCwxMj
+Y4MzU1NDU4LDczMDk5ODExNl19
 -->
