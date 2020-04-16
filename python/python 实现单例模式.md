@@ -21,7 +21,7 @@ class Cls(object):
         self.name = name
 ```
 接下来再看看使用类装饰器的实现方式
-```
+```markdown
 #!/usr/bin/env python3
 class Singleton(object):  
     def __init__(self, cls):  
@@ -39,7 +39,8 @@ class Cls(object):
     def __init__(self, name):  
         self.name = name
 ```
+通过前面的两种方式实现单例模式可以看出，都是使用的装饰器的te s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDEzMjE0NiwtMTg2NTQ3MDYyNCwxMj
-Y4MzU1NDU4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE5MTY4OTkxMDMsLTE4NjU0NzA2MjQsMT
+I2ODM1NTQ1OCw3MzA5OTgxMTZdfQ==
 -->
