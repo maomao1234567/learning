@@ -74,10 +74,8 @@ class Cls4(metaclass=SingletonMeta):
     def __init__(self, name):  
         self.name = name
 ```
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzMwNjc0NywxMjAxNDM3ODU1LDE1MT
+eyJoaXN0b3J5IjpbMTIwMTQzNzg1NSwxMjAxNDM3ODU1LDE1MT
 ExNzkyMjcsLTE3NTc2NDk0MzAsODQzNzQzNTYyLC0xODY1NDcw
 NjI0LDEyNjgzNTU0NTgsNzMwOTk4MTE2XX0=
 -->
