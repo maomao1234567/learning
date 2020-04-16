@@ -39,8 +39,8 @@ class Cls(object):
     def __init__(self, name):  
         self.name = name
 ```
-通过前面的两种方式实现单例模式可以看出，都是使用的装饰器的te s
+通过前面的两种方式实现单例模式可以看出，都是使用的装饰器的特性在类实例化时添加额外的一些操作来满足
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY4OTkxMDMsLTE4NjU0NzA2MjQsMT
-I2ODM1NTQ1OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTI3Nzk0NTEzNiwtMTg2NTQ3MDYyNCwxMj
+Y4MzU1NDU4LDczMDk5ODExNl19
 -->
