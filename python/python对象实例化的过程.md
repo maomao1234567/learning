@@ -7,7 +7,7 @@ class Foo(object):
         self.x = x  
         self.y = y
 ```
-实例化一个Foo对象的方法就是 foo = Foo(1, 2)，之前的理解这
+实例化一个Foo对象的方法就是 foo = Foo(1, 2)，之前的理解这里只是调用了__init__方法来初始化这个对象。其实并不是这样的，Foo(1, 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNjc0MzI3XX0=
+eyJoaXN0b3J5IjpbLTI4NDE0NzIwNF19
 -->
