@@ -58,8 +58,8 @@ class Cls2(object):
 ```
 从代码里可以看出这种实现方式就是通过重写__new__方法在创建实例的时候判断实例是否创建。这样的方式有个特点每一次实例化对象虽然都是返回的同一个实例化对象但是每次都会执行__init__初始化实例对象。
 #### 元类实现单例模式
-这里不展开讲元类，但是
+这里不展开讲元类，但是需要理解python中所说的一切对象的概念。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ2ODAyODAsODQzNzQzNTYyLC0xOD
-Y1NDcwNjI0LDEyNjgzNTU0NTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTI5NjY3MzcxMSw4NDM3NDM1NjIsLTE4Nj
+U0NzA2MjQsMTI2ODM1NTQ1OCw3MzA5OTgxMTZdfQ==
 -->
