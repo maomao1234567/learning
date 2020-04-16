@@ -23,8 +23,23 @@ class Cls(object):
 接下来再看看使用类装饰器的实现方式
 ```
 #!/usr/bin/env python3
+class Singleton(object):  
+    def __init__(self, cls):  
+        self.cls = cls  
+        self._instance = None  
+  
+ def __call__(self, *args, **kwargs):  
+        if self._instance is None:  
+            self._instance = self.cls(*args, **kwargs)  
+        return self._instance  
+  
+  
+@Singleton  
+class Cls(object):  
+    def __init__(self, name):  
+        self.name = name
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDI0NzMyOSwtMTg2NTQ3MDYyNCwxMj
+eyJoaXN0b3J5IjpbMTU1NDEzMjE0NiwtMTg2NTQ3MDYyNCwxMj
 Y4MzU1NDU4LDczMDk5ODExNl19
 -->
