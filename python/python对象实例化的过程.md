@@ -21,10 +21,10 @@ def __call__(obj_type, *args, **kwargs):
 1.`Foo(*args, **kwargs)` is equivalent to `Foo.__call__(*args, **kwargs)`.
 2. Since `Foo` is an instance of `type`, `Foo.__call__(*args, **kwargs)` calls `type.__call__(Foo, *args, **kwargs)`.
 3. `type.__call__(Foo, *args, **kwargs)` calls `type.__new__(Foo, *args, **kwargs)` which returns `obj`.
-4. `bj` is then initialized by calling `obj.__init__(*args, **kwargs)`.
+4. `obj` is then initialized by calling `obj.__init__(*args, **kwargs)`.
 5. `obj` is returned.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI2MTc5MjIsLTY3NjgyMDMzOCwtMT
-E4NzMzMzg2N119
+eyJoaXN0b3J5IjpbLTI0MTEyOTA3OSwtNjc2ODIwMzM4LC0xMT
+g3MzMzODY3XX0=
 -->
