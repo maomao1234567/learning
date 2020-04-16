@@ -18,7 +18,8 @@ def __call__(obj_type, *args, **kwargs):
     return obj
 ```
 总结一下python类实例化对象主要有以下几个步骤：
-
+1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjgyMDMzOCwtMTE4NzMzMzg2N119
+eyJoaXN0b3J5IjpbLTI0OTM3ODkyNywtNjc2ODIwMzM4LC0xMT
+g3MzMzODY3XX0=
 -->
