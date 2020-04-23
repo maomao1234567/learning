@@ -7,9 +7,12 @@ flask作为一个轻量级的python web框架，很值得拜读一下。flask是
 app.wsgi_app = MyMiddleware()来指定自己的实现的中间件。在flask中实现的wsgi_app()主要完成的任务就是，首先根据请求对象中的MapAdapter将路由解析到具体的endpoint以及请求参数，然后根据view_functions，找到对应endpoint的处理函数来处理这次请求, 最后根据返回的结果生成生成Response对象，最后返回Response对象，完成这次请求。
 
 ![](https://assets.toptal.io/uploads/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg)
+### flask 上下文管理
+在flask中的s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTU2MDYzOCw4MzMzNzY0MiwtMjA0Nz
-c5NjI0MSwxODcyOTY3OTUsLTQ3Mzg0NzYyNCwtMTU5OTY0MjY4
-Myw0MjA5MzE4NzIsLTE4OTA5MzkyODYsLTg4MTcwMzExMiwtMT
-A3Mjc4NjEwNSwxNzQwMDc2NDU3LC0xNTA0NzY3NjE2XX0=
+eyJoaXN0b3J5IjpbLTEwMzQ4MzgyNTgsMTExMTU2MDYzOCw4Mz
+MzNzY0MiwtMjA0Nzc5NjI0MSwxODcyOTY3OTUsLTQ3Mzg0NzYy
+NCwtMTU5OTY0MjY4Myw0MjA5MzE4NzIsLTE4OTA5MzkyODYsLT
+g4MTcwMzExMiwtMTA3Mjc4NjEwNSwxNzQwMDc2NDU3LC0xNTA0
+NzY3NjE2XX0=
 -->
