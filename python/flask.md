@@ -8,11 +8,11 @@ app.wsgi_app = MyMiddleware()来指定自己的实现的中间件。在flask中�
 
 ![](https://assets.toptal.io/uploads/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg)
 ### flask 上下文管理
-在flask中的上下文包括，请求上下文、app上下文。这些上下文主要的目的是完成将应用需要的数据封装在一个个对象里方便使用。flask采用全局变量的方式来管理这些上下文 ，但是这样的方式会造成在多进程的情况下shu j
+在flask中的上下文包括，请求上下文、app上下文。这些上下文主要的目的是完成将应用需要的数据封装在一个个对象里方便使用。flask采用全局变量的方式来管理这些上下文 ，但是这样的方式会造成在多进程的情况下数据会发生混乱。因此flask使用栈结构来存放这些数据。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Mzk4MzIzMywxMTExNTYwNjM4LDgzMz
-M3NjQyLC0yMDQ3Nzk2MjQxLDE4NzI5Njc5NSwtNDczODQ3NjI0
-LC0xNTk5NjQyNjgzLDQyMDkzMTg3MiwtMTg5MDkzOTI4NiwtOD
-gxNzAzMTEyLC0xMDcyNzg2MTA1LDE3NDAwNzY0NTcsLTE1MDQ3
-Njc2MTZdfQ==
+eyJoaXN0b3J5IjpbODY4Njc3NjMsMTExMTU2MDYzOCw4MzMzNz
+Y0MiwtMjA0Nzc5NjI0MSwxODcyOTY3OTUsLTQ3Mzg0NzYyNCwt
+MTU5OTY0MjY4Myw0MjA5MzE4NzIsLTE4OTA5MzkyODYsLTg4MT
+cwMzExMiwtMTA3Mjc4NjEwNSwxNzQwMDc2NDU3LC0xNTA0NzY3
+NjE2XX0=
 -->
