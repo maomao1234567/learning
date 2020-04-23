@@ -8,9 +8,9 @@ app.wsgi_app = MyMiddleware()来指定自己的实现的中间件。在flask中�
 
 ![](https://assets.toptal.io/uploads/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg)
 ### flask 上下文管理
-在flask中的上下文包括，请求上下文、app上下文。这些上下文主要的目的是
+在flask中的上下文包括，请求上下文、app上下文。这些上下文主要的目的是完成将应用需要的数据封装在一个个对象里方便使用。flask采用全局变量的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNjI4MzAwLDExMTE1NjA2MzgsODMzMz
+eyJoaXN0b3J5IjpbNDA2OTk5NDQ1LDExMTE1NjA2MzgsODMzMz
 c2NDIsLTIwNDc3OTYyNDEsMTg3Mjk2Nzk1LC00NzM4NDc2MjQs
 LTE1OTk2NDI2ODMsNDIwOTMxODcyLC0xODkwOTM5Mjg2LC04OD
 E3MDMxMTIsLTEwNzI3ODYxMDUsMTc0MDA3NjQ1NywtMTUwNDc2
