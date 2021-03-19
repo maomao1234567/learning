@@ -3,7 +3,9 @@
 2. 选择一个启动设备（硬盘，光盘，usb等），通常是硬盘。
 3. 运行bootloader 引导程序，例如grub，grub分为三个阶段，首先是通过读取硬盘的第一个分区中的MBR信息，找到boot分区，然后通过后面几个分区获取boot分区的文件系统内核程序获取boot中的linux 内核程序，最后加载linux内核，通过boot下的另外一个重要文件，加载根分区。
 4. 运行第一个系统进程，并且启动其他开机服务。
-
+###
+  linux主要就是由kernel（内核），
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTMyMTQ4Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MjIyNjU5NjEsMTkxMTMyMTQ4Miw3Mz
+A5OTgxMTZdfQ==
 -->
