@@ -5,7 +5,9 @@
 4. 运行第一个系统进程，并且启动其他开机服务。
 ###
   linux主要就是由kernel（内核）以及三方工具以及函数库构成。
+###  systemd
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDQ5NTg4OSwxOTExMzIxNDgyLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTIzNzY2MzUyNywtOTgwNDk1ODg5LDE5MT
+EzMjE0ODIsNzMwOTk4MTE2XX0=
 -->
