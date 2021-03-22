@@ -6,8 +6,8 @@
 ###
   linux主要就是由kernel（内核）以及三方工具以及函数库构成。
 ###  systemd
-
+cent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzY2MzUyNywtOTgwNDk1ODg5LDE5MT
-EzMjE0ODIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA4OTkyNzg1NywtMjM3NjYzNTI3LC05OD
+A0OTU4ODksMTkxMTMyMTQ4Miw3MzA5OTgxMTZdfQ==
 -->
