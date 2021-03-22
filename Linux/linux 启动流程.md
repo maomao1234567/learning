@@ -6,8 +6,8 @@
 ###
   linux主要就是由kernel（内核）以及三方工具以及函数库构成。
 ###  systemd
-cent
+centos7 开始采用systemd作为系统管理的工具，它集成很多的功能包括但是不限于
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTkyNzg1NywtMjM3NjYzNTI3LC05OD
-A0OTU4ODksMTkxMTMyMTQ4Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODgyMzUyNzU0LC0yMzc2NjM1MjcsLTk4MD
+Q5NTg4OSwxOTExMzIxNDgyLDczMDk5ODExNl19
 -->
