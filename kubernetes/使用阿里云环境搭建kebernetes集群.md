@@ -6,7 +6,8 @@
 3. 创建一个ELP弹性公网IP，并且绑定在NAT网关上。
 4.  创建ECS实例，我这里创建了3个ECS实例。一个作为master节点两个作为worker节点。
 ####  部署kubernetes 集群
-开始部署前需要在ECS上安装相应的软件包，我这里的节点使用的是Centos7.5作为宿主机的操作系统。
+开始部署前需要在ECS上安装相应的软件包，我这里的节点使用的是Centos7.5作为宿主机的操作系统。因此使用yum安装相应的软件包，详细步骤如下：
+1.  首先配置yum
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODUzMjQzMywyNDYzMjg0MjddfQ==
+eyJoaXN0b3J5IjpbLTEyODUzMTE1MjIsMjQ2MzI4NDI3XX0=
 -->
