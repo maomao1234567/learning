@@ -14,11 +14,11 @@
 5. 使用kuneadm init 初始化集群
 6. 现在一个基本的kubernetes 集群已经部署完毕了，但是通过查看集群健康状态发现scheduler 以及 controller manager处于unhealthy 状态，这时需要注释掉/etc/kubernetes/manifests下的kube-controller-manager.yaml和kube-scheduler.yaml的- – port=0然后重启kubelet, 通过获取集群pods发现coredns一直处于pending状态。这是因为需要部署一个网络插件给集群的pods提供网络功能，常见的网络插件有flannel、calico等，选择一个合适网络插件部署在集群中。这样一个可用的kubenetes集群就搭建完毕，但是现在集群中只有一个master节点，接下来就需要将worker 节点加入到集群中。
 7. 将worker节点加入到集群中，将之前拉去的docker镜像打包发给worker节点并且在worker节点上解包出所需的docker镜像。然后使用kubeadm join 加入到kubernetes 集群中。
-8. 
+#### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzE5MTY2MSwtMTIyMjg5Mjg4MSwtMT
-M2NDI2NTk2MCw2NzM1ODYxMywtNTcxNzQzNTY0LDM3Nzk2ODQw
-NywtMTMwOTUxMTk0NiwtOTI2MTkzMDAwLDE5NTg0NDY1NTIsLT
-E3MzIxNDcyMTQsLTE1NDM5Mzc3MTksMjEyMTM0MzY5NSwyMTg3
-NTgzMDcsMTUxMTA2MzY0MCwyNDYzMjg0MjddfQ==
+eyJoaXN0b3J5IjpbNDI3NzQyNjMsLTEyMjI4OTI4ODEsLTEzNj
+QyNjU5NjAsNjczNTg2MTMsLTU3MTc0MzU2NCwzNzc5Njg0MDcs
+LTEzMDk1MTE5NDYsLTkyNjE5MzAwMCwxOTU4NDQ2NTUyLC0xNz
+MyMTQ3MjE0LC0xNTQzOTM3NzE5LDIxMjEzNDM2OTUsMjE4NzU4
+MzA3LDE1MTEwNjM2NDAsMjQ2MzI4NDI3XX0=
 -->
