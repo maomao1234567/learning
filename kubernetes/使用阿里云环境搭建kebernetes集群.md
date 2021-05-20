@@ -8,8 +8,8 @@
 ####  部署kubernetes 集群
 开始部署前需要在ECS上安装相应的软件包，我这里的节点使用的是Centos7.5作为宿主机的操作系统。因此使用yum安装相应的软件包，详细步骤如下：
 1.  首先配置yum的docker源以及kubernetes源，因为国内的网络环境的原因，因此我选择的是阿里云的yum源配置。
-2. 先选择一个节点当作master节点，并且安装好docker-ce, kubelet, kubeadm,  kubectl. 这里解释下这几个软件，docker-ce就是容器环境，kubernetes支持的容器还有containerd等，kubelet是工作在每个节点上的与master上的apiServer通信的组件，主要作用就是接收新的或修改的Pod规范，并且使pod在期望的配置下运行尽可能达到期望的状态。kubectl则是外部环境与kubernets集群通信的组件，kubernetes通过apiServer向外提供基于restful的api接口管理kubernetes 的所有资源, kubectl 则是将这些api封装成一个工具。kubeadm则是一个快速创建部署kubernetes集群的工具，它很方便
+2. 先选择一个节点当作master节点，并且安装好docker-ce, kubelet, kubeadm,  kubectl. 这里解释下这几个软件，docker-ce就是容器环境，kubernetes支持的容器还有containerd等，kubelet是工作在每个节点上的与master上的apiServer通信的组件，主要作用就是接收新的或修改的Pod规范，并且使pod在期望的配置下运行尽可能达到期望的状态。kubectl则是外部环境与kubernets集群通信的组件，kubernetes通过apiServer向外提供基于restful的api接口管理kubernetes 的所有资源, kubectl 则是将这些api封装成一个工具。kubeadm则是一个快速创建部署kubernetes集群的工具，它很方便的将kubernetes集群中需要部署的组件通过bu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDMzNTYwNCwyMTg3NTgzMDcsMTUxMT
-A2MzY0MCwyNDYzMjg0MjddfQ==
+eyJoaXN0b3J5IjpbLTIxNDA1NzI0NjQsMjE4NzU4MzA3LDE1MT
+EwNjM2NDAsMjQ2MzI4NDI3XX0=
 -->
