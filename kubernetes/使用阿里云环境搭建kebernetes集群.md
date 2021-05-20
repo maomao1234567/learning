@@ -8,7 +8,7 @@
 ####  部署kubernetes 集群
 开始部署前需要在ECS上安装相应的软件包，我这里的节点使用的是Centos7.5作为宿主机的操作系统。因此使用yum安装相应的软件包，详细步骤如下：
 1.  首先配置yum的docker源以及kubernetes源，因为国内的网络环境的原因，因此我选择的是阿里云的yum源配置。
-2. 先选择一个节点当作master节点，并且安装好docker-ce, kubelet, kun
+2. 先选择一个节点当作master节点，并且安装好docker-ce, kubelet, kubeadm,  kubectl. 这里解释下这几个软件，docker-ce就是容器环境，kubernetes支持de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODM4MjEyMCwyNDYzMjg0MjddfQ==
+eyJoaXN0b3J5IjpbLTY3ODgxNjg0NywyNDYzMjg0MjddfQ==
 -->
