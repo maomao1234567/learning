@@ -5,7 +5,8 @@ kong是在nginx上封装的一个API网关组件，在微服务的架构中可�
 ### services
 ### routes
 ### consumers
+### application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzIxMTU5NzMsMTQ1MTQ1OTU5N119
+eyJoaXN0b3J5IjpbLTk1MDQ4NTEwMCwxNDUxNDU5NTk3XX0=
 -->
