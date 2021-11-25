@@ -7,10 +7,10 @@ services 是kong反向代理的上游服务，kong通过路由匹配到对应的
 ### routes
 routes 是在service注册到kong是提供的匹配规则，kong就根据这些路由规则匹配到对应的service上。
 ### consumers
-consumer 是消费kong的api的一些实体对象，在这里可以充当consumer的实体对象包括user，可以把客户端用户抽象成一个consumer。d
+consumer 是消费kong的api的一些实体对象，在这里可以充当consumer的实体对象包括user，可以把客户端用户抽象成一个consumer。我们可以通过给consumer增加权限认证等一系列的操作。可以通过acl来控制co
 ### application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTk0ODY3LC05NTA0ODUxMDAsLTk1MD
-Q4NTEwMCwtOTUwNDg1MTAwLDE0NTE0NTk1OTddfQ==
+eyJoaXN0b3J5IjpbMTk0MDExMzU3NSwtOTUwNDg1MTAwLC05NT
+A0ODUxMDAsLTk1MDQ4NTEwMCwxNDUxNDU5NTk3XX0=
 -->
