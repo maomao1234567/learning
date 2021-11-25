@@ -3,9 +3,9 @@
   简单的来说pxe就是通过网络自动化安装系统的一套方案。首先带有pxe支持的网卡的主机，需要在局域网提供一个DHCP服务器或者一个中继代理的能够转发广播到DHCP服务器。DHCP服务器主要是提供ip地址给待安装的机器，并且在分配ip地址的时候将安装引导文件，以及存放文件的tftp服务器ip返回。还需提供一个TFTP服务器以及http服务器，分别用来提供安装引导文件，linux内核文件，启动加载文件，http服务主要提供用来安装系统的应答文件，以及对应系统的软件包。
   
  ## 搭建dhcp服务器
-   dhcp服务器使用来给本网段的机器自动分配ip的服务器，将本网段ip统一管理。它可以给每个分配的ip提供一个租期时间，提供续租的功能。它本身的ip地址最好
+   dhcp服务器使用来给本网段的机器自动分配ip的服务器，将本网段ip统一管理。它可以给每个分配的ip提供一个租期时间，提供续租的功能。它本身的ip地址最好是静态配置，需要
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDY1ODQ5MywtNTY3OTk1NjksMjA1Nz
+eyJoaXN0b3J5IjpbMTU2NzAwOTYwOCwtNTY3OTk1NjksMjA1Nz
 cyMTI2LC05MDMyODgzNzRdfQ==
 -->
