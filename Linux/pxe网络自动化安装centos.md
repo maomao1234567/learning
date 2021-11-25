@@ -7,11 +7,10 @@
 ## 搭建tftp服务器
    tftp服务器它是一个简单的文件传输协议，在这里主要是用它来发放系统安装启动文件，linux内核文件，系统初始预启动的文件，以及启动安装菜单。
 ## 搭建httpd服务器
-
-
+  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzMyNzE5LDQ0Njc3Mzg5OSwxMjY3Mj
-QyNDUxLC01Njc5OTU2OSwyMDU3NzIxMjYsLTkwMzI4ODM3NF19
-
+eyJoaXN0b3J5IjpbOTI2NzM1NzE1LC04MzMzMjcxOSw0NDY3Nz
+M4OTksMTI2NzI0MjQ1MSwtNTY3OTk1NjksMjA1NzcyMTI2LC05
+MDMyODgzNzRdfQ==
 -->
