@@ -10,10 +10,11 @@
   安装运行httpd服务器都很容易，主要是制作应答文件，以及centos的镜像package放在http可以访问的路径下。应答文件主要是告诉机器如何初始化语言，分区，以及安装的pacakge和初始化的脚本。
 
 ## 总结
-本身搭建这几个服务不是很难的事情，主要是需要对linux系统安装启动的过程需要有一个详细的了解。在了解基础上才知道如何制作应答文件需要放置生么样的文件到ge zii
+本身搭建这几个服务不是很难的事情，主要是需要对linux系统安装启动的过程需要有一个详细的了解。在了解基础上才知道如何制作应答文件需要放置生么样的文件到各自的服务器上。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMzMyMjI1LC04MzMzMjcxOSw0NDY3Nz
-M4OTksMTI2NzI0MjQ1MSwtNTY3OTk1NjksMjA1NzcyMTI2LC05
-MDMyODgzNzRdfQ==
+eyJoaXN0b3J5IjpbNTAwNDYyNjUsLTgzMzMyNzE5LDQ0Njc3Mz
+g5OSwxMjY3MjQyNDUxLC01Njc5OTU2OSwyMDU3NzIxMjYsLTkw
+MzI4ODM3NF19
 -->
