@@ -5,9 +5,9 @@
  ## 搭建dhcp服务器
    dhcp服务器使用来给本网段的机器自动分配ip的服务器，将本网段ip统一管理。它可以给每个分配的ip提供一个租期时间，提供续租的功能。它本身的ip地址最好是静态配置，它是不是只能管理它自己本网段的ip分配需要继续深究。
 ## 搭建tftp服务器
-   tftp服务器它是一个简单的文件传输协议，在这里主要是用它来发放系统安装启动文件。de
+   tftp服务器它是一个简单的文件传输协议，在这里主要是用它来发放系统安装启动文件，linux内核文件，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTY1OTQ3MCwtNTY3OTk1NjksMjA1Nz
+eyJoaXN0b3J5IjpbMTI2NzI0MjQ1MSwtNTY3OTk1NjksMjA1Nz
 cyMTI2LC05MDMyODgzNzRdfQ==
 -->
