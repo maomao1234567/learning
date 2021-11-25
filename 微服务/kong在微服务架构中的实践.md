@@ -5,11 +5,11 @@ kong是在nginx上封装的一个API网关组件，在微服务的架构中可�
 ### services
 services 是kong反向代理的上游服务，kong通过路由匹配到对应的上游服务。service真正提供url处理的对象。
 ### routes
-routes 是在service注册到kong是
+routes 是在service注册到kong是提供的匹配规则，kong就根据这些路由规则匹配到dui y
 ### consumers
 ### application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTU0ODMsLTk1MDQ4NTEwMCwtOTUwND
-g1MTAwLC05NTA0ODUxMDAsMTQ1MTQ1OTU5N119
+eyJoaXN0b3J5IjpbODc2Njk1NDE2LC05NTA0ODUxMDAsLTk1MD
+Q4NTEwMCwtOTUwNDg1MTAwLDE0NTE0NTk1OTddfQ==
 -->
