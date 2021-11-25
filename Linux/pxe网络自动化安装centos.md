@@ -7,10 +7,13 @@
 ## 搭建tftp服务器
    tftp服务器它是一个简单的文件传输协议，在这里主要是用它来发放系统安装启动文件，linux内核文件，系统初始预启动的文件，以及启动安装菜单。
 ## 搭建httpd服务器
-  安装运行httpd服务器都很容易，主要是制作应答文件，以及centos的镜像package放在http可以访问的路径下。应答文件主要是告诉机器如何初始化语言，键盘de
+  安装运行httpd服务器都很容易，主要是制作应答文件，以及centos的镜像package放在http可以访问的路径下。应答文件主要是告诉机器如何初始化语言，分区，以及安装的pacakge和初始化的脚本。
+
+## 总结
+本身搭建这几个服务不是很难的事情，主要是d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA2NjI2NDUsLTgzMzMyNzE5LDQ0Nj
+eyJoaXN0b3J5IjpbLTE2MTc3Njc1ODcsLTgzMzMyNzE5LDQ0Nj
 c3Mzg5OSwxMjY3MjQyNDUxLC01Njc5OTU2OSwyMDU3NzIxMjYs
 LTkwMzI4ODM3NF19
 -->
