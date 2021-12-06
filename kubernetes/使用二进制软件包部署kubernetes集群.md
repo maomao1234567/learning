@@ -1,4 +1,5 @@
-d
+#  二进制部署kubernetes集群
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNDMzMTg4XX0=
+eyJoaXN0b3J5IjpbLTUzMTY1Mzc1Ml19
 -->
