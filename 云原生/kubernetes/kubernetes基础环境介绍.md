@@ -6,10 +6,10 @@ kubernetes集群的工作节点（服务器）主要分为两种角色类型，�
 上面的kubernetes的架构表示的是一个单master节点三个node节点的集群，集群之间的交互都是通过master上的api-server组件进行交互。
 所有的组件都不会直接操作etcd。
 ### kube-apiserver
-kubernetes通过apiserver暴露所有的api接口
+kubernetes通过apiserver暴露所有的api接口，因此apiserver相当人的大脑用于接收指令
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjYwODE2NiwxMzI3NDAzMDE4LC0xNj
-Y5ODgxMzk4LDEwMDQ5NTk4MzQsLTE1MTgzOTg5MDIsLTgzNTUw
-MTQ0Miw5ODYxNzYyNzNdfQ==
+eyJoaXN0b3J5IjpbODQ4NTAxNTkwLDEzMjc0MDMwMTgsLTE2Nj
+k4ODEzOTgsMTAwNDk1OTgzNCwtMTUxODM5ODkwMiwtODM1NTAx
+NDQyLDk4NjE3NjI3M119
 -->
