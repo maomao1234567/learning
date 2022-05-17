@@ -3,10 +3,10 @@ kubernetes是目前云原生技术栈的核心技术，它是由Google将自己1
 ## kubernetes架构
 kubernetes集群的工作节点（服务器）主要分为两种角色类型，分为master节点与node节点，master节点主要的工作是维护整个集群的状态、各节点之间的管理，node节点也就是工作节点主要是管理运行应用容器的。在master节点上主要运行的组件包括（kube-apiserver、kube-scheduler、kube-controller-manager），node节点运行的组件包括（kubelet、kube-proxy），额外还需要一个etcd集群，etcd也可以安装在master节点上。
 ![kubernetes架构图](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg)
-
+上面的kubernetes的架构表示的是一个单master节点的集群，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjA1ODA3NCwtMTY2OTg4MTM5OCwxMD
-A0OTU5ODM0LC0xNTE4Mzk4OTAyLC04MzU1MDE0NDIsOTg2MTc2
-MjczXX0=
+eyJoaXN0b3J5IjpbMjY3Mjk2MzEzLC0xNjY5ODgxMzk4LDEwMD
+Q5NTk4MzQsLTE1MTgzOTg5MDIsLTgzNTUwMTQ0Miw5ODYxNzYy
+NzNdfQ==
 -->
