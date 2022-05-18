@@ -12,12 +12,13 @@ kube-scheduler组件的主要功能是根据调度算法，将待运行Pod调度
 ### kube-controller-manager
 kube-controller-manager组件的主要作用就是管理用户在k8s中创建所有资源，通过不同的控制器去管理不同的资源，控制器的主要目的将是
 k8s集群中对应资源的状态保持在用户所定义的状态，比如ReplicaSet Controller的功能就是将让Pod的数量保持在用户定义副本数，如果Pod没达到配置的副本数controller请求apiserver创建对应的Pod再由scheduler调度到合适的节点运行。如果超过了配置的副本数controller会请求apiserver终止掉多的Pod。
-### 
+### kubelet 
+kubelet组件
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MTUxMzczLC0zNTQ1NjYzNjUsLTc4OD
-c2ODU3MCwtODIxMDk4MTkzLC0yNjc3OTQzODksLTE1NzgwMzc3
-MzcsMjcxMTY1NDg0LDYwMDAzNjM3MSwxMzI3NDAzMDE4LC0xNj
-Y5ODgxMzk4LDEwMDQ5NTk4MzQsLTE1MTgzOTg5MDIsLTgzNTUw
-MTQ0Miw5ODYxNzYyNzNdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjY4MjMsNTc5MTUxMzczLC0zNTQ1Nj
+YzNjUsLTc4ODc2ODU3MCwtODIxMDk4MTkzLC0yNjc3OTQzODks
+LTE1NzgwMzc3MzcsMjcxMTY1NDg0LDYwMDAzNjM3MSwxMzI3ND
+AzMDE4LC0xNjY5ODgxMzk4LDEwMDQ5NTk4MzQsLTE1MTgzOTg5
+MDIsLTgzNTUwMTQ0Miw5ODYxNzYyNzNdfQ==
 -->
