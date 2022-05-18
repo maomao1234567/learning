@@ -8,11 +8,11 @@ kubernetes集群的工作节点（服务器）主要分为两种角色类型，�
 ### kube-apiserver
 kubernetes通过apiserver暴露所有的api接口，因此apiserver相当人的大脑用于接收、发送指令，一切对集群状态以及所有资源的增删改查的操作都需要通过apiserver然后apiserver在对操作完成认证、权限检查等准入控制后，再由apiserver将合法的操作写入到ectd中去。因此在生产环境中需要部署多个master节点的集群，将api-server变成一个高可用的集群，api-server在部署的时候会暴露两个端口一个是http的用于集群内部组件的交互，一个是https的用于集群外部客户端的交互比如kubectl
 ### kube-scheduler
-
+kube-scheduler组件的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgwMzc3MzcsMjcxMTY1NDg0LDYwMD
-AzNjM3MSwxMzI3NDAzMDE4LC0xNjY5ODgxMzk4LDEwMDQ5NTk4
-MzQsLTE1MTgzOTg5MDIsLTgzNTUwMTQ0Miw5ODYxNzYyNzNdfQ
-==
+eyJoaXN0b3J5IjpbODk2MTUwNzIyLC0xNTc4MDM3NzM3LDI3MT
+E2NTQ4NCw2MDAwMzYzNzEsMTMyNzQwMzAxOCwtMTY2OTg4MTM5
+OCwxMDA0OTU5ODM0LC0xNTE4Mzk4OTAyLC04MzU1MDE0NDIsOT
+g2MTc2MjczXX0=
 -->
