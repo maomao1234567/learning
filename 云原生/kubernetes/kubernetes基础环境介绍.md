@@ -15,12 +15,12 @@ k8s集群中对应资源的状态保持在用户所定义的状态，比如Repli
 ### kubelet 
 kubelet组件是在工作节点上安装的，它的功能主要是管理机器的资源，以及与容器运行时进行交互调用容器接口进行容器的创建管理。kubelet会定时想apiserver请求报告节点的资源占用情况节点状态，以及pod的状态等。
 ### kube-proxy
-kube-proxy组件的功能
+kube-proxy组件的功能是代理转发
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3OTAxMDE2LDU3OTE1MTM3MywtMzU0NT
-Y2MzY1LC03ODg3Njg1NzAsLTgyMTA5ODE5MywtMjY3Nzk0Mzg5
-LC0xNTc4MDM3NzM3LDI3MTE2NTQ4NCw2MDAwMzYzNzEsMTMyNz
-QwMzAxOCwtMTY2OTg4MTM5OCwxMDA0OTU5ODM0LC0xNTE4Mzk4
-OTAyLC04MzU1MDE0NDIsOTg2MTc2MjczXX0=
+eyJoaXN0b3J5IjpbLTE5NzU1MDE0NzEsNTc5MTUxMzczLC0zNT
+Q1NjYzNjUsLTc4ODc2ODU3MCwtODIxMDk4MTkzLC0yNjc3OTQz
+ODksLTE1NzgwMzc3MzcsMjcxMTY1NDg0LDYwMDAzNjM3MSwxMz
+I3NDAzMDE4LC0xNjY5ODgxMzk4LDEwMDQ5NTk4MzQsLTE1MTgz
+OTg5MDIsLTgzNTUwMTQ0Miw5ODYxNzYyNzNdfQ==
 -->
