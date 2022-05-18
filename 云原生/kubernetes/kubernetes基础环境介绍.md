@@ -10,12 +10,12 @@ kubernetes通过apiserver暴露所有的api接口，因此apiserver相当人的�
 ### kube-scheduler
 kube-scheduler组件的主要功能是根据调度算法，将待运行Pod调度到一个最适合的node（节点）上去执行。它监听api-server上的创建Pod的事件，然后将待分配节点列表默认是选择一个资源占用较少的节点去部署。当然也可以自定义调度规则调度Pod到合适的节点运行，一般可以设置亲缘行于反亲缘来调度Pod。
 ### kube-controller-manager
-kube-controller-manager组件的
+kube-controller-manager组件的主要作用就是管理用户创建
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDU2NjM2NSwtNzg4NzY4NTcwLC04Mj
-EwOTgxOTMsLTI2Nzc5NDM4OSwtMTU3ODAzNzczNywyNzExNjU0
-ODQsNjAwMDM2MzcxLDEzMjc0MDMwMTgsLTE2Njk4ODEzOTgsMT
-AwNDk1OTgzNCwtMTUxODM5ODkwMiwtODM1NTAxNDQyLDk4NjE3
-NjI3M119
+eyJoaXN0b3J5IjpbMTEyNTk0OTYwMCwtMzU0NTY2MzY1LC03OD
+g3Njg1NzAsLTgyMTA5ODE5MywtMjY3Nzk0Mzg5LC0xNTc4MDM3
+NzM3LDI3MTE2NTQ4NCw2MDAwMzYzNzEsMTMyNzQwMzAxOCwtMT
+Y2OTg4MTM5OCwxMDA0OTU5ODM0LC0xNTE4Mzk4OTAyLC04MzU1
+MDE0NDIsOTg2MTc2MjczXX0=
 -->
