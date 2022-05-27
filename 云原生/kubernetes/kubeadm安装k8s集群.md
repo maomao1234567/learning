@@ -1,5 +1,6 @@
->Kubeadm 是一个用来快速创建K8s集群的工具包，它屏蔽了kubernetes各个组件之间的复杂性。能够让才学习kubernetes的
+# Kubeadm
+>Kubeadm 是一个用来快速创建K8s集群的工具包，它屏蔽了kubernetes各个组件之间的复杂性。能够让才学习kubernetes的用户能够一键部署一个kubernetes集群，它通过将kubernetes中的各个组件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzQ4NDM1NywtMTA3MDU3Nzk2MiwxMz
-UwOTk5ODQ3XX0=
+eyJoaXN0b3J5IjpbLTE1NTAxODU1MzEsLTEwNzA1Nzc5NjIsMT
+M1MDk5OTg0N119
 -->
