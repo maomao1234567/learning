@@ -7,8 +7,9 @@
 |master|172.16.90.100|2c/8G/40G|
 |etcd|172.16.90.100|2c/8G/40G|
 |node1|172.16.90.101|2c/4G/50G|
+|node2|172.16.90.102|2c/4G/50G|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjUyMjUwMiwtMjk3Nzc1NTgxLC0xMD
+eyJoaXN0b3J5IjpbMTgyNjQxOTI3NywtMjk3Nzc1NTgxLC0xMD
 cwNTc3OTYyLDEzNTA5OTk4NDddfQ==
 -->
