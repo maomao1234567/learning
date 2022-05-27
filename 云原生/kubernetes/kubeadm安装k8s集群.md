@@ -9,10 +9,11 @@
 |node1|172.16.90.101|2c/4G/50G|
 |node2|172.16.90.102|2c/4G/50G|
 kubeadm将api-server、kube-controller、kube-scheduler、以及etcd都通过容器的方式启动管理。
-### 1.2 安装
+### 1.2 集群安装前的环境准备
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MTY0NzA2LDEyODk5MDkzNzcsMTAxNj
-MyMjkzOSwtMjk3Nzc1NTgxLC0xMDcwNTc3OTYyLDEzNTA5OTk4
-NDddfQ==
+eyJoaXN0b3J5IjpbMTA0NjgxMTc1MCwxMjg5OTA5Mzc3LDEwMT
+YzMjI5MzksLTI5Nzc3NTU4MSwtMTA3MDU3Nzk2MiwxMzUwOTk5
+ODQ3XX0=
 -->
