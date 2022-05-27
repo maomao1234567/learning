@@ -5,8 +5,10 @@
 |角色|IP|硬件资源|
 |---|---|---|
 |master|172.16.90.100|2c/8G/40G|
+|etcd|172.16.90.100|2c/8G/40G|
+|node1|172.16.90.101|2c/4G/50G|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE3MDYyNzcsLTI5Nzc3NTU4MSwtMT
-A3MDU3Nzk2MiwxMzUwOTk5ODQ3XX0=
+eyJoaXN0b3J5IjpbMTAzMjUyMjUwMiwtMjk3Nzc1NTgxLC0xMD
+cwNTc3OTYyLDEzNTA5OTk4NDddfQ==
 -->
