@@ -8,9 +8,11 @@
 |etcd|172.16.90.100|2c/8G/40G|
 |node1|172.16.90.101|2c/4G/50G|
 |node2|172.16.90.102|2c/4G/50G|
-kubeadm将所api-server、kube-controller、kube-scheduler、以及etcd都通过
+kubeadm将api-server、kube-controller、kube-scheduler、以及etcd都通过容器的方式启动管理。
+### 1.2 安装
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTkwOTM3NywxMDE2MzIyOTM5LC0yOT
-c3NzU1ODEsLTEwNzA1Nzc5NjIsMTM1MDk5OTg0N119
+eyJoaXN0b3J5IjpbNDc1MTY0NzA2LDEyODk5MDkzNzcsMTAxNj
+MyMjkzOSwtMjk3Nzc1NTgxLC0xMDcwNTc3OTYyLDEzNTA5OTk4
+NDddfQ==
 -->
