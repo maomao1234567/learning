@@ -3,8 +3,10 @@
 ## 1.kubeadm部署单master节点的K8s集群
 ###  1.1 资源配置清单
 |角色|IP|硬件资源|
+|---|---|---|
+|master|172.16.90.100|2c/8G/40G|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzE0ODAxOTIsLTI5Nzc3NTU4MSwtMT
+eyJoaXN0b3J5IjpbLTEyMTE3MDYyNzcsLTI5Nzc3NTU4MSwtMT
 A3MDU3Nzk2MiwxMzUwOTk5ODQ3XX0=
 -->
