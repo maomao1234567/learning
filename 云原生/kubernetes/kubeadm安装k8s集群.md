@@ -8,9 +8,9 @@
 |etcd|172.16.90.100|2c/8G/40G|
 |node1|172.16.90.101|2c/4G/50G|
 |node2|172.16.90.102|2c/4G/50G|
-d
+kubeadm将所api-server、kube-controller、kube-scheduler、以及etcd都通过
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjIxNzkyMywxMDE2MzIyOTM5LC0yOT
+eyJoaXN0b3J5IjpbMTI4OTkwOTM3NywxMDE2MzIyOTM5LC0yOT
 c3NzU1ODEsLTEwNzA1Nzc5NjIsMTM1MDk5OTg0N119
 -->
