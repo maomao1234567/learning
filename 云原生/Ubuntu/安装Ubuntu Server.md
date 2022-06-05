@@ -3,8 +3,6 @@ ubuntu 是Linux开源发行版中，支持容器技术最优雅的。因此选�
 ### 1.选择镜像源
 使用的是ubuntu-18.04 live server镜像源
 
-![](file:////private/var/folders/w_/lyyvzm1s4m3fgfchv0rdc0580000gn/T/com.kingsoft.wpsoffice.mac/wps-chunchunmaomao/ksohtml/wpsmXWxUf.jpg)
-
 ### 2.配置虚拟机的硬件环境
 
 硬件环境：2c/4G/40G
@@ -35,20 +33,17 @@ ubuntu 是Linux开源发行版中，支持容器技术最优雅的。因此选�
 
 ### 10.选择预原装环境
 
-<![if !supportLists]>10.<![endif]>等待安装
+### 11.等待安装
 
-![](file:////private/var/folders/w_/lyyvzm1s4m3fgfchv0rdc0580000gn/T/com.kingsoft.wpsoffice.mac/wps-chunchunmaomao/ksohtml/wpsWmtnZy.jpg)
+#### 	12.修改root用户密码
+```
+sudo passwd root
+```
+ubuntu为了安全，默认创建root并默认密码，因此需要修改root密码
 
-<![if !supportLists]>11.<![endif]>修改root用户密码
-
-Sudo passwd root
-
-ubuntu为了安全，默认创建root并默认密码，因此需要需要root密码
-
-![](file:////private/var/folders/w_/lyyvzm1s4m3fgfchv0rdc0580000gn/T/com.kingsoft.wpsoffice.mac/wps-chunchunmaomao/ksohtml/wps0PQ3nQ.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDM3MzM0NiwtMTc5MDk3MjE2MiwyMD
+eyJoaXN0b3J5IjpbLTMwMDAyODEyNSwtMTc5MDk3MjE2MiwyMD
 I0MDgxMTU5LDE1MDAyNzAxMzEsMTAyMzI5OTU2OCwtMTY3OTY3
 OTI4MV19
 -->
