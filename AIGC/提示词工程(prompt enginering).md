@@ -1,5 +1,5 @@
 ## Prompt  Engineering
-提示词（prompt）是用来微调大模型，通过输入prompt来提高大模型输出的能力，相当于与大模型沟通交流方式。它是来自yu
+提示词（prompt）是用来微调大模型，通过输入prompt来提高大模型输出的能力，相当于与大模型沟通交流方式。它是来自与
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDg1MTM0OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzk3MzQ1Mjc4LDczMDk5ODExNl19
 -->
