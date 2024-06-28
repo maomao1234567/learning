@@ -5,8 +5,9 @@
 ### In-Context Learning
 是指模型在处理一系列输入的时候，使用前面的输入与输出作为后续输入的上下文。
 
-#### Chain-of-Thought (思维lian
+#### Chain-of-Thought (思维链)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MzgzMTIxLC0xOTgxMTQzNzI5LC0yMT
+eyJoaXN0b3J5IjpbMjQyMjUxMTY2LC0xOTgxMTQzNzI5LC0yMT
 Q0ODEwNTI4LDczMDk5ODExNl19
 -->
