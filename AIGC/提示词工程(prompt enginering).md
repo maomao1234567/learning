@@ -11,8 +11,11 @@ https://arxiv.org/pdf/2201.11903
 l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能带来性能的下降。
 2. 对于大模型来说，CoT Prompting涌现出了性能提升。
 3. 对于复杂的问题，CoT Prompting能获得更多的性能收益。
-4.
+
+#### Self-Consistency(自洽性)
+多路径推理
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODIzMTAyMywyNDIyNTExNjYsLTE5OD
-ExNDM3MjksLTIxNDQ4MTA1MjgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0NTkxODQ2ODIsMjQyMjUxMTY2LC0xOT
+gxMTQzNzI5LC0yMTQ0ODEwNTI4LDczMDk5ODExNl19
 -->
