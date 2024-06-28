@@ -11,7 +11,8 @@ https://arxiv.org/pdf/2201.11903
 l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能带来性能的下降。
 2. 对于大模型来说，CoT Prompting涌现出了性能提升。
 3. 对于复杂的问题，CoT Prompting能获得更多的性能收益。
+4.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjA5Njc2MywyNDIyNTExNjYsLTE5OD
+eyJoaXN0b3J5IjpbMTE3ODIzMTAyMywyNDIyNTExNjYsLTE5OD
 ExNDM3MjksLTIxNDQ4MTA1MjgsNzMwOTk4MTE2XX0=
 -->
