@@ -14,8 +14,10 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 
 #### Self-Consistency(自洽性)
 多路径推理
+#### Tree-of-Thought(思维树)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkxODQ2ODIsMjQyMjUxMTY2LC0xOT
-gxMTQzNzI5LC0yMTQ0ODEwNTI4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzNDcwMDM4OTcsLTE0NTkxODQ2ODIsMj
+QyMjUxMTY2LC0xOTgxMTQzNzI5LC0yMTQ0ODEwNTI4LDczMDk5
+ODExNl19
 -->
