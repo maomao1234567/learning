@@ -29,10 +29,11 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 - 从简单开始，在设计提示词时是一个迭代的过程，从最简单的提示开始为了达到想要的结果然后一步步的通过增加要素以及提供上下文迭代。
 - 指令 可以使用命令来指示大模型执行一些简单的任务，建议将命令放在提示词的开头，并使用一些清晰的分隔符来进行命令与其它内容比如上下文等。
 - 具体性 提示越具体越详细，生成的效果就越好。
+- 避免不精确 在上面关于详细和格式改进的提示中，很容易陷入想要过于聪明的提示陷阱，从而可能创建不精确的描述。通常最好是具体和直接。这里的类比非常类似于有效的沟通——越直接，信息传递就越有效。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjg0MDY5MCwtMTkzODA1MjEzOSwtMT
-EwMzA1MTM3MSwtODE4MDAyODk0LDE4Nzc3Nzg0MjEsLTE4MDcz
-MTc1MzksLTEzNDcwMDM4OTcsLTE0NTkxODQ2ODIsMjQyMjUxMT
-Y2LC0xOTgxMTQzNzI5LC0yMTQ0ODEwNTI4LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbLTE1MTgwMDkzNjYsLTE5MzgwNTIxMzksLT
+ExMDMwNTEzNzEsLTgxODAwMjg5NCwxODc3Nzc4NDIxLC0xODA3
+MzE3NTM5LC0xMzQ3MDAzODk3LC0xNDU5MTg0NjgyLDI0MjI1MT
+E2NiwtMTk4MTE0MzcyOSwtMjE0NDgxMDUyOCw3MzA5OTgxMTZd
+fQ==
 -->
