@@ -17,9 +17,9 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 #### Tree-of-Thought(思维树)
 利用数的结构来表现大模型的思维过程，每个节点就属于一个思维的中间步骤。
 #### 提示词要素
-大语言模型的提示词一般
+大语言模型的提示词一般包含指令、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ3MjQxNDMsLTEzNDcwMDM4OTcsLT
+eyJoaXN0b3J5IjpbLTE2NDcxNTIyNTEsLTEzNDcwMDM4OTcsLT
 E0NTkxODQ2ODIsMjQyMjUxMTY2LC0xOTgxMTQzNzI5LC0yMTQ0
 ODEwNTI4LDczMDk5ODExNl19
 -->
