@@ -21,9 +21,10 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 
 - 指令：想要模型执行的特定任务或者指令。
 - 上下文： 包含外部信息或者额外的上下文信息，引导语言模型更好的输出。
-- 输入数据：yong
+- 输入数据：用户输入的内容或问题
+- 输出提示：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc2MzU1MzcsLTEzNDcwMDM4OTcsLT
+eyJoaXN0b3J5IjpbLTE3MjUyNjczNjUsLTEzNDcwMDM4OTcsLT
 E0NTkxODQ2ODIsMjQyMjUxMTY2LC0xOTgxMTQzNzI5LC0yMTQ0
 ODEwNTI4LDczMDk5ODExNl19
 -->
