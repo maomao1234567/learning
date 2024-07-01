@@ -27,10 +27,10 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 在这四个要素中，指令与输入数据是至少要存在一个的，上下文是用来帮助大语言模型更好的完成任务提供的相关信息，输出提示是控制大模型输出的格式来达到下游任务的输入参数。
 #### 提示词设计的通用技巧
 - 从简单开始，在设计提示词时是一个迭代的过程，从最简单的提示开始为了达到想要的结果然后一步步的通过增加要素以及提供上下文迭代。
-- 
+- 指令
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODAwMjg5NCwxODc3Nzc4NDIxLC0xOD
-A3MzE3NTM5LC0xMzQ3MDAzODk3LC0xNDU5MTg0NjgyLDI0MjI1
-MTE2NiwtMTk4MTE0MzcyOSwtMjE0NDgxMDUyOCw3MzA5OTgxMT
-ZdfQ==
+eyJoaXN0b3J5IjpbLTExMDMwNTEzNzEsLTgxODAwMjg5NCwxOD
+c3Nzc4NDIxLC0xODA3MzE3NTM5LC0xMzQ3MDAzODk3LC0xNDU5
+MTg0NjgyLDI0MjI1MTE2NiwtMTk4MTE0MzcyOSwtMjE0NDgxMD
+UyOCw3MzA5OTgxMTZdfQ==
 -->
