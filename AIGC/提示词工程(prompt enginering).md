@@ -19,9 +19,10 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 #### 提示词要素
 大语言模型的提示词一般包含指令、上下文、输入数据、输出提示。
 
-- 指令：
+- 指令：想要模型执行的特定任务或者指令。
+- 上下文： 包含外部信息或者额外的上下文信息
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzgzODEwOCwtMTM0NzAwMzg5NywtMT
-Q1OTE4NDY4MiwyNDIyNTExNjYsLTE5ODExNDM3MjksLTIxNDQ4
-MTA1MjgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzU3NzM5NzYzLC0xMzQ3MDAzODk3LC0xND
+U5MTg0NjgyLDI0MjI1MTE2NiwtMTk4MTE0MzcyOSwtMjE0NDgx
+MDUyOCw3MzA5OTgxMTZdfQ==
 -->
