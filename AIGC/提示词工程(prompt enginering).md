@@ -24,9 +24,9 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 - 输入数据：用户输入的内容或问题
 - 输出提示：指定模型输出的类型或格式
 
-在这四个要素中，指令与输入数据是至少要存在一个的，上下文是用来帮助大语言模型更好的完成任务提供的
+在这四个要素中，指令与输入数据是至少要存在一个的，上下文是用来帮助大语言模型更好的完成任务提供的相关信息，输出提示是控制大模型输出的格式更好的fu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3OTc2NzM2LC0xODA3MzE3NTM5LC0xMz
-Q3MDAzODk3LC0xNDU5MTg0NjgyLDI0MjI1MTE2NiwtMTk4MTE0
-MzcyOSwtMjE0NDgxMDUyOCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTM2Mzg2NTc0NywtMTgwNzMxNzUzOSwtMT
+M0NzAwMzg5NywtMTQ1OTE4NDY4MiwyNDIyNTExNjYsLTE5ODEx
+NDM3MjksLTIxNDQ4MTA1MjgsNzMwOTk4MTE2XX0=
 -->
