@@ -24,8 +24,9 @@ l. 对于小模型来说，CoT Prompting无法带来性能提升，甚至可能�
 - 输入数据：用户输入的内容或问题
 - 输出提示：指定模型输出的类型或格式
 
+在这四个要素中，指令与输入数据是至少要存在一个的，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg5Njk2MTYsLTEzNDcwMDM4OTcsLT
+eyJoaXN0b3J5IjpbLTE4MDczMTc1MzksLTEzNDcwMDM4OTcsLT
 E0NTkxODQ2ODIsMjQyMjUxMTY2LC0xOTgxMTQzNzI5LC0yMTQ0
 ODEwNTI4LDczMDk5ODExNl19
 -->
